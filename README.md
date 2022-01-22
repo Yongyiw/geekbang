@@ -2,7 +2,7 @@
 GO course notes &amp; assignments
 
 # Week 1 
-## GO Basics and Web Framework
+## 1.1 GO Basics and Web Framework
 - slice capacity vs length
 - slice extends (doubled size if small) if capacity exceeded
 - keep sub slice immutable (shared slice)
@@ -10,3 +10,5 @@ GO course notes &amp; assignments
 - switch user: // accepts complex obj, no break
 - for
 
+## 1.2 Type Definition and Service Abstract
+- Read once request body (second read return empty no exception thrown)
